@@ -1,0 +1,15 @@
+name: Lifesteal
+version: 1.0
+main: com.lifesteal.LifestealPlugin
+api-version: 1.20
+commands:
+  hearts:
+    description: Check your heart count
+  revive:
+    description: Revive a player using Revival Token
+    usage: /revive <player>
+    permission: lifesteal.revive
+permissions:
+  lifesteal.revive:
+    description: Allows using /revive command
+    default: op

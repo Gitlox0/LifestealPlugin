@@ -1,0 +1,20 @@
+heart-gain: 2.0
+heart-loss: 2.0
+max-hearts: 40.0
+min-hearts: 2.0
+
+revival-token:
+  material: NETHER_STAR
+  name: "&bRevival Token"
+  lore:
+    - "&7Right-click to revive a fallen player"
+    - "&8Only works on players in spectator mode"
+
+crafting-recipe:
+  shape:
+    - "GGG"
+    - "GNG"
+    - "GGG"
+  ingredients:
+    G: GOLD_INGOT
+    N: NETHER_STAR
